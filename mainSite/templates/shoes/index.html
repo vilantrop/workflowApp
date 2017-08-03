@@ -1,0 +1,5 @@
+<ul>
+  {% for shoe in all_shoes %}
+  <li><a href="/main/{{ shoe.id }}"> {{ shoe.name }} </a></li>
+  {% endfor %}
+</ul>
